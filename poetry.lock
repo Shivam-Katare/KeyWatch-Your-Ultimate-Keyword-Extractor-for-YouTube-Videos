@@ -484,6 +484,14 @@ carto = ["pydeck-carto"]
 jupyter = ["ipywidgets (>=7,<8)", "traitlets (>=4.3.2)", "ipython (>=5.8.0)", "ipykernel (>=5.1.2)"]
 
 [[package]]
+name = "pyenv"
+version = "0.0.1"
+description = "pyenv project placeholder package"
+category = "main"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "pyflakes"
 version = "2.5.0"
 description = "passive checker of Python programs"
@@ -925,7 +933,7 @@ testing = ["pytest (>=6)", "pytest-checkdocs (>=2.4)", "pytest-flake8", "flake8 
 [metadata]
 lock-version = "1.1"
 python-versions = ">=3.8.0,<3.9"
-content-hash = "7d97461d41de75e2cb7dfe65712c680aa2da9a0a0a0855eb71be5b3d2b79b04f"
+content-hash = "92b130c86659d0b4fc48b9b807ba4d6535b2c0ca9484a5d4b9a5139d6d94c948"
 
 [metadata.files]
 aiohttp = []
@@ -970,6 +978,7 @@ pluggy = []
 protobuf = []
 pyarrow = []
 pydeck = []
+pyenv = []
 pyflakes = []
 pygments = []
 pympler = []
